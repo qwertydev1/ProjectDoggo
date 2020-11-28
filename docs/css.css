@@ -1,0 +1,85 @@
+/*day 1*/
+/*start button css*/
+button {
+font-family: "Courier New", Courier, monospace;
+border-width: 3px;
+border-color:aquamarine; 
+border-radius: 2px;
+background-color: #00ff00;
+transition: all 0.65s;
+text-align: center;  
+width: 700px;
+border-style: solid;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.65s;
+}
+button span:after{
+content: '\005F';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.65s;
+}
+button:hover span:after {
+
+  opacity: 1;
+}
+button:hover{
+border-radius: 5px 25px;
+opacity: 1;
+}
+button{
+
+}
+/*end button css*/
+/*start body css and fonts*/
+body{
+background-color: #004000;  
+}
+h1{
+font-family: "Courier New", Courier, monospace;
+font-weight: bold;  
+}
+h2{
+font-family: "Courier New", Courier, monospace;  
+font-weight: bold;
+}
+h3{
+font-family: "Courier New", Courier, monospace;  
+font-weight: bold;
+}
+h4{
+font-family: "Courier New", Courier, monospace;  
+font-weight: bold;
+}
+h5{
+font-family: "Courier New", Courier, monospace;  
+font-weight: bold;
+}
+h6{
+font-family: "Courier New", Courier, monospace;  
+font-weight: bold;
+}
+p{
+font-family: "Courier New", Courier, monospace;  
+font-weight: bold;
+}
+span{
+font-family: "Courier New", Courier, monospace;  
+font-weight: bold;
+  }
+/*end body css and fonts*/
+/*start img css*/
+img{
+border-radius: 20px;
+transition: all 0.65s;
+}
+img:hover{
+border-radius: 5px 25px;
+}
+/*end img css*/
+/*day 2*/
