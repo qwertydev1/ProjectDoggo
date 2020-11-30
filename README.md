@@ -5,5 +5,5 @@ ProjectDoggo is open-source so feel free to modify this game. please read the [L
 Download [Python](https://www.python.org/downloads/).
 Open Python IDLE
 File>Open...> 
-Choose doggocity.py in ithe zip file you downloaded.
+Choose doggocity.py in the zip file you downloaded.
 If you cannot open it, dowload [WinRar](https://www.rarlab.com/download.htm) and extract the .zip file and then try again.
