@@ -11,6 +11,7 @@ transition: all 0.65s;
 text-align: center;  
 width: 500px;
 border-style: solid;
+padding: 20px;
 }
 button span {
   cursor: pointer;
@@ -32,6 +33,7 @@ button:hover{
 border-radius: 5px 25px;
 opacity: 1;
 right: 10px;
+padding: 50px;
 }
 button:focus{
 background-color: #009000;
@@ -99,11 +101,13 @@ transition: all 0.65s;
 text-align: center;  
 border-style: solid;
 cursor: pointer;
+padding: 10px;
 }
 a:hover{
 border-radius: 5px 25px;
 opacity: 1;
 right: 10px;
+padding: 40px;
 }
 a:active{
 background-color: #009000;
