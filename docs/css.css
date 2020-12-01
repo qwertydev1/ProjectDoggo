@@ -1,6 +1,7 @@
 /*day 1*/
 /*start button css*/
 button {
+outline: none;
 font-family: "Courier New", Courier, monospace;
 border-width: 3px;
 border-color:aquamarine; 
@@ -8,7 +9,7 @@ border-radius: 2px;
 background-color: #00ff00;
 transition: all 0.65s;
 text-align: center;  
-width: 700px;
+width: 500px;
 border-style: solid;
 }
 button span {
@@ -25,15 +26,17 @@ content: '\005F';
   transition: 0.65s;
 }
 button:hover span:after {
-
-  opacity: 1;
+opacity: 1;
 }
 button:hover{
 border-radius: 5px 25px;
 opacity: 1;
+right: 10px;
 }
-button{
-
+button:focus{
+background-color: #009000;
+border-color: #00ff00;
+color: white;
 }
 /*end button css*/
 /*start body css and fonts*/
@@ -43,36 +46,79 @@ background-color: #004000;
 h1{
 font-family: "Courier New", Courier, monospace;
 font-weight: bold;  
+color: white;
 }
 h2{
 font-family: "Courier New", Courier, monospace;  
 font-weight: bold;
+color: white;
 }
 h3{
 font-family: "Courier New", Courier, monospace;  
 font-weight: bold;
+color: white;
 }
 h4{
 font-family: "Courier New", Courier, monospace;  
 font-weight: bold;
+color: white;
 }
 h5{
 font-family: "Courier New", Courier, monospace;  
 font-weight: bold;
+color: white;
 }
 h6{
 font-family: "Courier New", Courier, monospace;  
 font-weight: bold;
+color: white;
 }
 p{
 font-family: "Courier New", Courier, monospace;  
 font-weight: bold;
+color: white;
 }
 span{
 font-family: "Courier New", Courier, monospace;  
 font-weight: bold;
-  }
+color: white;
+}
 /*end body css and fonts*/
+/*start link css*/
+a{
+display:block;
+width:500px;
+font-family: "Courier New", Courier, monospace;  
+font-weight: bold;
+outline: none;
+border-width: 3px;
+border-color:aquamarine; 
+border-radius: 2px;
+background-color: #00ff00;
+transition: all 0.65s;
+text-align: center;  
+border-style: solid;
+cursor: pointer;
+}
+a:hover{
+border-radius: 5px 25px;
+opacity: 1;
+right: 10px;
+}
+a:active{
+background-color: #009000;
+border-color: #00ff00;
+color: white;
+}
+a:visited {
+  color: lime;
+  background-color: black;
+}
+a:focus {
+border-radius: 5px 25px;
+opacity: 1;
+right: 10px; 
+}
 /*start img css*/
 img{
 border-radius: 20px;
@@ -83,3 +129,12 @@ border-radius: 5px 25px;
 }
 /*end img css*/
 /*day 2*/
+/*start divs */
+.bk {
+background-color: #00ff00;
+color: #000000;
+border-width: 20px;
+border-radius:5px; 
+width: fit-content;
+height:fit-content; 
+}
